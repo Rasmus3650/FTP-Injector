@@ -83,7 +83,7 @@ def main():
         uname = None
         pw = None
         if anonLogin(host) == True:
-            uname = "anonymous"æ
+            uname = "anonymous"
             pw = "me@your.com"
             print("[+] Using Anonymous Credentials Attack")
             attack(uname, pw, host, redirect)
